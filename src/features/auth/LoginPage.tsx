@@ -31,10 +31,8 @@ export const LoginPage = () => {
 
   return (
     <Flex align="center" justify="center" style={{ height: '100vh', background: 'var(--gray-2)' }} p="4">
-      {/* Increased Card size to "4" and maxWidth to 500px for a "bigger" look */}
       <Card size="4" style={{ width: '100%', maxWidth: '500px', padding: '1rem' }}>
         <form onSubmit={handleLogin}>
-          {/* Increased gap to "6" for more vertical breathing room (longer form) */}
           <Flex direction="column" gap="6">
             <Box mb="2">
               <Heading size="8" align="center" weight="bold" color="indigo">
